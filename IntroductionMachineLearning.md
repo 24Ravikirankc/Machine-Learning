@@ -1,9 +1,9 @@
-Machine Learning
+# Machine Learning
 It is a subset of artificial intelligence (AI) that assists systems to learn and improve automatically from experience without being explicitly programmed.
 - Arthur Samuel coined the term machine learning (ML) in 1959.
 - It enables programs to learn automatically, making computers more intelligent without human intervention.
 
-Machine learning approach:
+## Machine learning approach:
 
 - Learns from data to make predictions or take actions without being explicitly programmed.
 - Uses statistical techniques and optimization algorithms to learn patterns and make decisions
@@ -11,7 +11,7 @@ Machine learning approach:
 - Handles complex and unstructured data, such as images, text, and audio, without requiring extensive preprocessing
 - Performance improves with more data and learning iterations, enhancing accuracy and generalization
 
-Difference Between ML, DL, and AI
+## Difference Between ML, DL, and AI
 
 Machine learning (ML), deep learning (DL), and artificial intelligence (AI) are often used interchangeably.
 AI: It encompasses the simulation of human intelligence in machines.
@@ -22,24 +22,24 @@ DL: It is a subset of ML that uses neural networks with multiple layers for comp
 • Example: Handwriting recognition
 
 
-Machine Learning Example:
+## Machine Learning Example:
 
 In a chess game between a computer and a person, the computer uses AI to analyze the game, predict moves, and decide its actions.
 The AI decides its next move against the opponent using a complex neural network that learns various features and patterns from the data.
 The AI uses machine learning to figure out if the opponent is a beginner, intermediate, or advanced player.
 
-Machine Learning Algorithms: 
+## Machine Learning Algorithms: 
 These processes allow computers to learn patterns from data and make predictions on their own.
 Machine learning algorithms help applications to:
 - Predict outcomes
 - Improve the performance
 - Classify the target feature
 
-Types of Machine Learning:
+## Types of Machine Learning:
 
 ML can be divided into four main categories; each characterized by its capacity to predict conditions or identify patterns to produce outcomes.
 
-Type 1: Supervised Learning:
+### Type 1: Supervised Learning:
 
 A supervised learning method uses labeled data to predict outcomes guided by specificinput-output pairs.
 Supervised Learning Algorithms: 
@@ -54,7 +54,7 @@ Some examples of supervised learning are:
 - Sorting waste based on known waste items and their corresponding waste types 
 - Predicting crop yield based on seasonal crop quality changes
 
-Type 2: Unsupervised Learning:
+### Type 2: Unsupervised Learning:
 
 It allows models to identify patterns and structures in unlabeled data without explicit guidance.
 Some examples are:
@@ -66,7 +66,7 @@ The unlabeled dataset is provided to an unsupervised learning algorithm to disco
 Unsupervised Learning Example:
 It automatically groups images into distinct categories based on similarities, such as age group or gender, without any prior labels.
 
-Type 3: Semi-Supervised Learning:
+### Type 3: Semi-Supervised Learning:
 
 It uses a combination of a small amount of labeled data and a large amount of unlabeled data for training.
 - Like supervised learning, it aims to learn a function that can accurately predict the output variable from the input variables.
@@ -80,7 +80,7 @@ Google Photos is a popular example of semi-supervised learning.
 In various instances, uploaders label images. Despite Google's lack of knowledge regarding image names, its algorithm can identify them by analyzing visual features like shapes and colors.
 Whenever a picture is taken, it gets stored in the Google Cloud platform or a database.
 
-Type 4: Reinforcement Learning:
+### Type 4: Reinforcement Learning:
 Reinforcement learning is a type of machine learning where algorithms learn from the environment by performing actions and receiving either rewards or penalties as feedback.
 - If the program finds the correct solution, the interpreter rewards the algorithm.
 - If the outcome is incorrect, the algorithm is penalized for incorrect predictions. It must reiterate until it finds a better result.
